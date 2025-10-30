@@ -5,3 +5,46 @@ p{
 	text-shadow: 2px 2px 4px white;
 	text-indent: 30px;
 }
+
+body {
+  background-color: #4A171b;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  color: #e6d7d7;
+  text-shadow: 0 0 15px #c9b0b0;
+  margin-bottom: 40px;
+}
+
+/* 🌸 СТИЛЬ КНОПКИ */
+.btn {
+  text-decoration: none;
+  background: linear-gradient(135deg, #b3404a, #d06c73);
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(211, 119, 125, 0.6);
+  background: linear-gradient(135deg, #d06c73, #b3404a);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(211, 119, 125, 0.5);
+}
