@@ -1,9 +1,22 @@
 p{
-	color: #5B3A29;
-	font-family: Gabriola;
-	font-size: 80px;
-	text-shadow: 2px 2px 4px white;
-	text-indent: 30px;
+	color: #f3e6e6;
+  font-family: "Gabriola", cursive;
+  font-size: 70px;
+  letter-spacing: 2px;
+  text-shadow:
+    0 0 10px #ffb6c1,
+    0 0 20px #e89cae,
+    0 0 30px #d4707f;
+  margin-bottom: 40px;
+  transition: all 0.4s ease;
+}
+
+p:hover {
+  text-shadow:
+    0 0 20px #ffd1dc,
+    0 0 35px #f0a3b3,
+    0 0 50px #e17b8d;
+  transform: scale(1.03);
 }
 
 body {
